@@ -5,7 +5,7 @@ var names = ["Emmanouil", "Jane", "Bob", "Jack", "Frank", "Jim", "Rowdie", "Ceci
 for (var i = 0; i < names.length; i++) {
   var firstLetter = names[i].charAt(0).toLowerCase();
 
-  if (firstLetter === 'j' ) {
+  if (firstLetter == 'J' ||  firstLetter == 'j' ) {
     byeSpeaker(names[i]);
   }
   else {
